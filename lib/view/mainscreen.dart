@@ -17,7 +17,6 @@ class _MainScreenState extends State<MainScreen> {
   int targetMeme = 100;
   @override
   void initState() {
-    // TODO: implement initState
     // splashScreen();
     GetInitMemeNo();
     updateImg();
@@ -92,7 +91,7 @@ class _MainScreenState extends State<MainScreen> {
             Spacer(),
             Text('App Created By', style: TextStyle(fontSize: 20)),
             SizedBox(height: 3),
-            Text('Harris Sayyed',
+            Text('Shazan Shaikh',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             SizedBox(
               height: 10,
